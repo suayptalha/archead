@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use ARCHead, please cite the associated article and this software."
+type: software
+title: "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads"
+version: 0.1.0
+date-released: 2026-08-03
+license: MIT
+authors:
+  - given-names: "Şuayp Talha"
+    family-names: Kocabay
+  - given-names: "Talha Rüzgar"
+    family-names: Akkuş
+  - given-names: Ceyhun
+    family-names: Derinbogaz
+  - given-names: "Kamer Ali"
+    family-names: Yuksel

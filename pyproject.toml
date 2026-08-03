@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archead-llm"
+version = "0.1.0"
+description = "Activation-metric residual correction for compact LLM output heads"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "ARCHead Authors" },
+]
+keywords = [
+  "large-language-models",
+  "quantization",
+  "model-compression",
+  "efficient-inference",
+  "pytorch",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "accelerate",
+  "datasets",
+  "huggingface-hub",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "safetensors",
+  "sentencepiece",
+  "torch",
+  "tqdm",
+  "transformers>=4.52.0",
+]
+
+[project.optional-dependencies]
+triton = ["triton"]
+baselines = ["bitsandbytes", "autoawq", "optimum"]
+downstream = ["lm-eval"]
+all = ["triton", "bitsandbytes", "autoawq", "optimum", "lm-eval"]
+
+[tool.setuptools.packages.find]
+include = ["archead*", "experiments*"]

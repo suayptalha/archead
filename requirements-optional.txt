@@ -1,0 +1,6 @@
+# Install only the backends needed for the experiment being reproduced.
+triton
+bitsandbytes
+autoawq
+optimum
+lm-eval
