@@ -164,6 +164,10 @@ bash scripts/smoke_test.sh
 
 Bug reports and focused pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change.
 
+## Acknowledgments
+
+We thank TextCortex for providing GPU support for this study.
+
 ## Citation
 
 If ARCHead is useful in your work, use the metadata in [CITATION.cff](CITATION.cff).
