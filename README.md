@@ -2,6 +2,8 @@
 
 ARCHead compresses large language-model output heads with an activation-aware quantized core and a low-rank residual correction. It is designed for models whose transformer blocks are already quantized while the vocabulary projection remains in BF16 or FP16.
 
+Paper coming soon.
+
 ## Features
 
 - Packed low-bit storage for the output projection
