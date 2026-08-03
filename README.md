@@ -166,7 +166,7 @@ Bug reports and focused pull requests are welcome. See [CONTRIBUTING.md](CONTRIB
 
 ## Acknowledgments
 
-We thank TextCortex for providing GPU support for this study.
+We thank TextCortex AI for providing GPU support for this study.
 
 ## Citation
 
