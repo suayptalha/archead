@@ -170,7 +170,19 @@ We thank TextCortex AI for providing GPU support for this study.
 
 ## Citation
 
-If ARCHead is useful in your work, use the metadata in [CITATION.cff](CITATION.cff).
+If ARCHead is useful in your work, use the citation below:
+
+```bibtex
+@misc{kocabay2026archeadactivationmetricresidualcorrection,
+      title={ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads}, 
+      author={Şuayp Talha Kocabay and Talha Rüzgar Akkuş and Kamer Ali Yuksel},
+      year={2026},
+      eprint={2608.02703},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.02703}, 
+}
+```
 
 ## License
 
