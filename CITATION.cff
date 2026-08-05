@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use ARCHead, please cite this article."
-type: article
-title: "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads"
+message: "If you use ARCHead, please cite the associated article."
+type: software
+title: "ARCHead"
 authors:
   - given-names: "Şuayp Talha"
     family-names: "Kocabay"
@@ -9,8 +9,20 @@ authors:
     family-names: "Akkuş"
   - given-names: "Kamer Ali"
     family-names: "Yuksel"
-year: 2026
-identifiers:
-  - type: other
-    value: "arXiv:2608.02703"
-url: "https://arxiv.org/abs/2608.02703"
+
+preferred-citation:
+  type: article
+  title: "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads"
+  authors:
+    - given-names: "Şuayp Talha"
+      family-names: "Kocabay"
+    - given-names: "Talha Rüzgar"
+      family-names: "Akkuş"
+    - given-names: "Kamer Ali"
+      family-names: "Yuksel"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2608.02703"
+  repository-code: "https://github.com/USERNAME/ARCHead"
+  url: "https://arxiv.org/abs/2608.02703"
